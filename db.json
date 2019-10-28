@@ -1,48 +1,62 @@
 {
   "funcionarios": [
     {
-      "id": 1,
+      "_id": 0,
       "nome": "Daniel Alves da Silva",
       "cpf": "0",
       "rg": "0",
       "sexo": "X",
       "dtnasc": "99/99/1900",
       "isActive": 0,
-      "cargoId": 1,
+      "cargoId": 3,
       "atestado": "atestado.jpg",
       "atividades": [
         {
           "id": 0,
-          "atividadeId": 0,
+          "atividadeId": 1,
           "epis": [
             {
               "id": 0,
-              "epiId": 0,
+              "epiId": 1,
               "ca": 0
             },
             {
               "id": 1,
-              "epiId": 0,
+              "epiId": 2,
               "ca": 0
             }
           ]
         },
         {
           "id": 1,
-          "atividadeId": 0
+          "atividadeId": 2,
+          "epis": [
+            {
+              "id": 0,
+              "epiId": 5,
+              "ca": 0
+            }
+          ]
         }
       ]
     },
     {
-      "id": 2,
+      "_id": 2,
       "nome": "Giselle Torres Lopes",
       "cpf": "0",
       "rg": "0",
       "sexo": "X",
       "dtnasc": "99/99/1900",
       "isActive": 1,
+      "cargoId": 1,
       "atestado": "atestado.jpg",
-      "atividades": {}
+      "atividades": [
+        {
+          "id": 0,
+          "atividadeId": 4,
+          "epis": []
+        }
+      ]
     }
   ],
   "cargo": [
