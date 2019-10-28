@@ -1,0 +1,102 @@
+{
+  "funcionarios": [
+    {
+      "id": 1,
+      "nome": "Daniel Alves da Silva",
+      "cpf": "0",
+      "rg": "0",
+      "sexo": "X",
+      "dtnasc": "99/99/1900",
+      "isActive": 0,
+      "cargoId": 1,
+      "atestado": "atestado.jpg",
+      "atividades": [
+        {
+          "id": 0,
+          "atividadeId": 0,
+          "epis": [
+            {
+              "id": 0,
+              "epiId": 0,
+              "ca": 0
+            },
+            {
+              "id": 1,
+              "epiId": 0,
+              "ca": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "atividadeId": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Giselle Torres Lopes",
+      "cpf": "0",
+      "rg": "0",
+      "sexo": "X",
+      "dtnasc": "99/99/1900",
+      "isActive": 1,
+      "atestado": "atestado.jpg",
+      "atividades": {}
+    }
+  ],
+  "cargo": [
+    {
+      "id": 1,
+      "titulo": "Secretário"
+    },
+    {
+      "id": 2,
+      "titulo": "Digitador"
+    },
+    {
+      "id": 3,
+      "titulo": "Eletricista"
+    }
+  ],
+  "atividade": [
+    {
+      "id": 1,
+      "titulo": "Serviços Gerais"
+    },
+    {
+      "id": 2,
+      "titulo": "Auxiliar"
+    },
+    {
+      "id": 3,
+      "titulo": "Fiscal"
+    },
+    {
+      "id": 4,
+      "titulo": "Auditor"
+    }
+  ],
+  "epi": [
+    {
+      "id": 1,
+      "titulo": "Calçado de Segurança"
+    },
+    {
+      "id": 2,
+      "titulo": "Máscara"
+    },
+    {
+      "id": 3,
+      "titulo": "Luvas Descartáveis"
+    },
+    {
+      "id": 4,
+      "titulo": "Capacete de Segurança"
+    },
+    {
+      "id": 5,
+      "titulo": "Abafadores de Ruídos"
+    }
+  ]
+}
