@@ -1,13 +1,13 @@
 {
   "funcionarios": [
     {
-      "_id": 0,
+      "id": 1,
       "nome": "Daniel Alves da Silva",
       "cpf": "0",
       "rg": "0",
       "sexo": "X",
       "dtnasc": "99/99/1900",
-      "isActive": 0,
+      "isActive": 1,
       "cargoId": 3,
       "atestado": "atestado.jpg",
       "atividades": [
@@ -41,13 +41,31 @@
       ]
     },
     {
-      "_id": 1,
+      "id": 2,
       "nome": "Giselle Torres Lopes",
       "cpf": "0",
       "rg": "0",
       "sexo": "X",
       "dtnasc": "99/99/1900",
       "isActive": 1,
+      "cargoId": 1,
+      "atestado": "atestado.jpg",
+      "atividades": [
+        {
+          "id": 0,
+          "atividadeId": 4,
+          "epis": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "João da Silva Oliveira",
+      "cpf": "0",
+      "rg": "0",
+      "sexo": "X",
+      "dtnasc": "99/99/1900",
+      "isActive": 0,
       "cargoId": 1,
       "atestado": "atestado.jpg",
       "atividades": [
